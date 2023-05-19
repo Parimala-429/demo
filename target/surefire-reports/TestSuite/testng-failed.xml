@@ -7,7 +7,7 @@
     <classes>
       <class name="SampleTest">
         <methods>
-          <include name="openBrowser"/>
+          <include name="testWebElements"/>
           <include name="invalidTitle"/>
           <include name="login"/>
         </methods>

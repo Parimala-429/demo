@@ -1,21 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 14.22 s <<< FAILURE! - in TestSuite
-invalidTitle(SampleTest)  Time elapsed: 0.876 s  <<< FAILURE!
-java.lang.AssertionError: The title doesnot match expected [Shopping cart] but found [Swag Labs]
-	at SampleTest.invalidTitle(SampleTest.java:50)
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.822 s <<< FAILURE! - in TestSuite
+testWebElements(SampleTest)  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
+	at SampleTest.testWebElements(SampleTest.java:47)
 
-login(SampleTest)  Time elapsed: 0.06 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
-  (Session info: chrome=113.0.5672.126)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0a64fe520e1dfdb515d674e7111ff81b, findElement {using=id, value=user-name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PARIMA~1.JAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54276}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54276/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0a64fe520e1dfdb515d674e7111ff81b
-	at SampleTest.login(SampleTest.java:31)
+login(SampleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at SampleTest.login(SampleTest.java:20)
+
+invalidTitle(SampleTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at SampleTest.invalidTitle(SampleTest.java:32)
 
