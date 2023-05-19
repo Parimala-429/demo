@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-19T12:45:50 BST" name="TestSuite" finished-at="2023-05-19T12:45:50 BST" duration-ms="74">
+  <suite started-at="2023-05-19T14:21:58 BST" name="TestSuite" finished-at="2023-05-19T14:21:58 BST" duration-ms="89">
     <groups>
     </groups>
-    <test started-at="2023-05-19T12:45:50 BST" name="SampleTest" finished-at="2023-05-19T12:45:50 BST" duration-ms="74">
+    <test started-at="2023-05-19T14:21:58 BST" name="SampleTest" finished-at="2023-05-19T14:21:58 BST" duration-ms="89">
       <class name="SampleTest">
-        <test-method signature="testWebElements()[pri:0, instance:SampleTest@12b0404f]" started-at="2023-05-19T12:45:50 BST" name="testWebElements" finished-at="2023-05-19T12:45:50 BST" duration-ms="12" status="FAIL">
+        <test-method signature="testWebElements()[pri:0, instance:SampleTest@670002]" started-at="2023-05-19T14:21:58 BST" name="testWebElements" finished-at="2023-05-19T14:21:58 BST" duration-ms="14" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null]]>
@@ -51,7 +51,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebElements -->
-        <test-method signature="login()[pri:1, instance:SampleTest@12b0404f]" started-at="2023-05-19T12:45:50 BST" name="login" finished-at="2023-05-19T12:45:50 BST" duration-ms="1" status="FAIL">
+        <test-method signature="login()[pri:1, instance:SampleTest@670002]" started-at="2023-05-19T14:21:58 BST" name="login" finished-at="2023-05-19T14:21:58 BST" duration-ms="4" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
@@ -95,7 +95,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="invalidTitle()[pri:2, instance:SampleTest@12b0404f]" started-at="2023-05-19T12:45:50 BST" name="invalidTitle" finished-at="2023-05-19T12:45:50 BST" duration-ms="1" status="FAIL">
+        <test-method signature="invalidTitle()[pri:2, instance:SampleTest@670002]" started-at="2023-05-19T14:21:58 BST" name="invalidTitle" finished-at="2023-05-19T14:21:58 BST" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
