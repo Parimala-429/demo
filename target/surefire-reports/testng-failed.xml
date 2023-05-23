@@ -8,8 +8,7 @@
       <class name="SampleTest">
         <methods>
           <include name="openBrowser"/>
-          <include name="invalidTitle"/>
-          <include name="login"/>
+          <include name="testWebElements"/>
         </methods>
       </class> <!-- SampleTest -->
     </classes>
