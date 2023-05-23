@@ -1,6 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.894 s <<< FAILURE! - in TestSuite
 testWebElements(SampleTest)  Time elapsed: 0.033 s  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)" because "this.driver" is null
@@ -14,3 +15,6 @@ invalidTitle(SampleTest)  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
 	at SampleTest.invalidTitle(SampleTest.java:32)
 
+=======
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.058 s - in TestSuite
+>>>>>>> origin/master

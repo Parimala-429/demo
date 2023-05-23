@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -139,6 +140,32 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidTitle -->
+=======
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-23T10:34:02 BST" name="TestSuite" finished-at="2023-05-23T10:34:08 BST" duration-ms="6493">
+    <groups>
+    </groups>
+    <test started-at="2023-05-23T10:34:02 BST" name="SampleTest" finished-at="2023-05-23T10:34:08 BST" duration-ms="6493">
+      <class name="SampleTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:SampleTest@1cbbffcd]" started-at="2023-05-23T10:34:02 BST" name="openBrowser" finished-at="2023-05-23T10:34:08 BST" duration-ms="6263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="login()[pri:1, instance:SampleTest@1cbbffcd]" started-at="2023-05-23T10:34:08 BST" name="login" finished-at="2023-05-23T10:34:08 BST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="invalidTitle()[pri:2, instance:SampleTest@1cbbffcd]" started-at="2023-05-23T10:34:08 BST" name="invalidTitle" finished-at="2023-05-23T10:34:08 BST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidTitle -->
+        <test-method signature="testWebElements()[pri:3, instance:SampleTest@1cbbffcd]" started-at="2023-05-23T10:34:08 BST" name="testWebElements" finished-at="2023-05-23T10:34:08 BST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebElements -->
+>>>>>>> origin/master
       </class> <!-- SampleTest -->
     </test> <!-- SampleTest -->
   </suite> <!-- TestSuite -->
